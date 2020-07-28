@@ -1,0 +1,302 @@
+
+
+
+.botones{
+  background-color:  rgb(198, 151, 95);
+  border-color: rgb(198, 151, 95) ;
+  color: white;
+  padding: 8px;
+
+}
+
+
+/* navegacion */
+.navegacion-principal {
+  background-color: white;
+}
+ .nav-link {
+ color: green;
+ }
+
+.navegacion-principal img{
+ height: 80px;
+ width: 80px;
+}
+
+
+/* carrousel */
+.medidas {
+  width: 100%;
+  height: 80px;
+}
+
+
+.subtitulos{
+  color: grey;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 40px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+
+/* servicios*/
+.row{
+  margin-left: 20px;
+  margin-right: 10px;
+
+}
+
+.card{
+  -webkit-box-shadow: -1px 10px 25px -8px rgba(102,102,102,0.45);
+  -moz-box-shadow: -1px 10px 25px -8px rgba(102,102,102,0.45);
+   box-shadow: -1px 10px 25px -8px rgba(102,102,102,0.45);
+   border-color: white;
+}
+
+.card-text{
+ color: black;
+ text-align: center;
+ font-size: 14px;
+}
+
+.card-title{
+  color: grey;
+  font-size: 16px;
+  text-align: center;
+}
+
+a.botones{
+ background-color: #425E06;
+ border-color: #425E06;
+ text-align: center;
+ border-bottom: 10px;
+ justify-content: center;
+ display: flex;
+}
+
+
+/* galeria*/
+
+.item-galeria{
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border: 8px solid white;
+}
+
+.hover-galeria{
+  background-color: rgba(1, 1, 1, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: .2s;
+  }
+
+
+.hover-galeria i{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.hover-galeria a{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.item-galeria:hover .hover-galeria{
+  opacity: 1;
+  transition: .3s;
+}
+
+.row{
+  margin-left: 10px;
+}
+
+.container-fluid{
+  padding: 40px;
+}
+
+
+/* call to action*/
+
+.call-to-action img{
+  margin-left: 10%;
+  margin-top: 20px;
+
+}
+
+.sale{
+  margin-left: 0%;
+  font-size: 30px;
+  color: green;
+  text-align: left;
+  font-family: 'Krub', sans-serif;
+}
+
+.boton-oferta{
+  background-color:  rgb(198, 151, 95);
+  border-color: rgb(198, 151, 95) ;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+  margin-left: 70%;
+
+}
+
+
+.call-to-action{
+  background-color: white;
+  width: 100%;
+  height: 300px;
+}
+
+
+/* subscripcion*/
+
+.newsletter{
+  background-color:#F4F5ED;
+  height: 300px;
+  text-align: center;
+  font-size: 12px;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.suscribirme{
+  text-align: center;
+  color: grey;
+  font-size: 28px;
+  margin-left: 70%;
+  margin-right: 10%;
+  padding-top: 30px;
+}
+
+.needs-validation{
+margin-left: 70%;
+margin-right: 10%;
+justify-content: center;
+margin-top:2px;
+
+}
+
+.redes i{
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  border: 10px solid #F4F5ED ;
+}
+
+.texto-subscripcion{
+  text-align: left;
+  margin-left: 6%;
+  margin-right: 70%;
+  font-size: 15px;
+  color: green;
+  margin-top: 20px;
+}
+
+
+/* ACERCA DE */
+
+.tituloacerca{
+  background-color: rgb(241, 232, 206);
+   width: 100%;
+   height: 300px;
+  color: rgb(198, 151, 95);
+  font-size: 30px;
+  text-align: center;
+  padding:180px;
+}
+
+.nosotros{
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.nosotros img{
+  position: absolute;
+  float: right;
+  margin-left: 40%;
+  border-radius: 100%;
+}
+.info{
+  background-color:  rgb(198, 151, 95);
+  border-color: rgb(198, 151, 95) ;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+  padding-right: 240px;
+
+}
+.container{
+  padding: 100px;
+}
+
+.container-nosotros{
+  margin-top: 300px;
+}
+
+.texto-sumate{
+  text-align: left;
+  margin-left: 25%;
+  font-size: 15px;
+  color: black;
+  }
+
+.sumate{
+  background-color:  rgb(198, 151, 95);
+  border-color: rgb(198, 151, 95) ;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+  margin-left: 40%;
+}
+
+.container-sumate{
+  padding-top: 150px;
+}
+
+.texto{
+  text-align: left;
+  margin-left: 25%;
+  font-size: 15px;
+  color: black;
+  position: relative;
+}
+
+/* Contactos */
+.formulario{
+  border-color: grey;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 100px;
+
+}
+
+.boton-enviar{
+  background-color:  rgb(198, 151, 95);
+  border-color: rgb(198, 151, 95) ;
+  color: white;
+  padding: 8px;
+  float:right;
+}
+
+.textarea{
+ justify-content: center;
+ width: 110%;
+ margin: 6px;
+}
+
+.mapa{
+  margin-top: 200px;
+}

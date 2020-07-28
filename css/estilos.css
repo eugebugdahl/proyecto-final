@@ -1,0 +1,13 @@
+
+/* navegacion */
+.navegacion-principal {
+  background-color: white;
+}
+ .nav-link {
+ color: green;
+ }
+
+.navegacion-principal img{
+ height: 80px;
+ width: 80px;
+}
